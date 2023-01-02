@@ -1,0 +1,4 @@
+{
+  "extends": "@sanity/eslint-config-studio",
+  "eslint.workingDirectories": ["./web", "./studio"]  //Parsing Error: Cannot find module '@babel/preset-env' for Sanity-- adding this line is the fix
+}
